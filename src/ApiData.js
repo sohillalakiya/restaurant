@@ -29,7 +29,7 @@ const ApiData = [
       },
       {
         id: 4,
-        image: "../images/chola.jpg",
+        image: "images/chola.jpg",
         name: "chola",
         category: "lunch",
         price: "50₹",
@@ -38,7 +38,7 @@ const ApiData = [
       },
       {
         id: 5,
-        image: "../images/pizza.jpg",
+        image: "images/pizza.jpg",
         name: "pizza",
         category: "evening",
         price: "80₹",
@@ -47,7 +47,7 @@ const ApiData = [
       },
       {
         id: 6,
-        image: "../images/nonvegthali.jpg",
+        image: "images/nonvegthali.jpg",
         name: "Non-Veg Thali",
         category: "dinner",
         price: "180₹",
@@ -56,7 +56,7 @@ const ApiData = [
       },
       {
         id: 7,
-        image: "../images/sweet.jpg",
+        image: "images/sweet.jpg",
         name: "Sweets",
         category: "dinner",
         price: "60₹",
@@ -65,7 +65,7 @@ const ApiData = [
       },
       {
         id: 8,
-        image: "../images/rajmarice.jpg",
+        image: "images/rajmarice.jpg",
         name: "Rajma Rice",
         category: "lunch",
         price: "60₹",
@@ -74,7 +74,7 @@ const ApiData = [
       },
       {
         id: 9,
-        image: "../images/samosa.jpg",
+        image: "images/samosa.jpg",
         name: "samasa",
         category: "evening",
         price: "10₹",
@@ -84,7 +84,7 @@ const ApiData = [
   
       {
         id: 10,
-        image: "../images/donuts.jpg",
+        image: "images/donuts.jpg",
         name: "donuts",
         category: "snacks",
         price: "10₹",
@@ -93,7 +93,7 @@ const ApiData = [
       },
       {
         id: 11,
-        image: "../images/chips.jpg",
+        image: "images/chips.jpg",
         name: "chips",
         category: "snacks",
         price: "10₹",
@@ -102,7 +102,7 @@ const ApiData = [
       },
       {
         id: 12,
-        image: "../images/ice.jpg",
+        image: "images/ice.jpg",
         name: "ice-cream",
         category: "snacks",
         price: "10₹",
@@ -111,7 +111,7 @@ const ApiData = [
       },
       {
         id: 13,
-        image: "../images/rajmarice.jpg",
+        image: "images/rajmarice.jpg",
         name: "Basmati Rice",
         category: "rice",
         price: "10₹",
