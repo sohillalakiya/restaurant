@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sohillalakiya/restaurant/static/css/main.5c023a01.css",
-    "main.js": "/sohillalakiya/restaurant/static/js/main.49167a1c.js",
-    "static/js/787.aab8bd84.chunk.js": "/sohillalakiya/restaurant/static/js/787.aab8bd84.chunk.js",
-    "index.html": "/sohillalakiya/restaurant/index.html",
-    "main.5c023a01.css.map": "/sohillalakiya/restaurant/static/css/main.5c023a01.css.map",
-    "main.49167a1c.js.map": "/sohillalakiya/restaurant/static/js/main.49167a1c.js.map",
-    "787.aab8bd84.chunk.js.map": "/sohillalakiya/restaurant/static/js/787.aab8bd84.chunk.js.map"
+    "main.css": "/sohillalakiya.github.io/restaurant/static/css/main.5c023a01.css",
+    "main.js": "/sohillalakiya.github.io/restaurant/static/js/main.723c3484.js",
+    "static/js/787.aab8bd84.chunk.js": "/sohillalakiya.github.io/restaurant/static/js/787.aab8bd84.chunk.js",
+    "index.html": "/sohillalakiya.github.io/restaurant/index.html",
+    "main.5c023a01.css.map": "/sohillalakiya.github.io/restaurant/static/css/main.5c023a01.css.map",
+    "main.723c3484.js.map": "/sohillalakiya.github.io/restaurant/static/js/main.723c3484.js.map",
+    "787.aab8bd84.chunk.js.map": "/sohillalakiya.github.io/restaurant/static/js/787.aab8bd84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c023a01.css",
-    "static/js/main.49167a1c.js"
+    "static/js/main.723c3484.js"
   ]
 }
