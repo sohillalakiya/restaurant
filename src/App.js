@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import ApiData from './ApiData';
+import MenuCard from './Component/MenuCard';
+import NavBar from './Component/NavBar';
+
+const uniqueList = [...new Set(ApiData.map((item) => {
+  return item.category;
+})), "all"]
 
 function App() {
+  const [menuData, setmenuData] = useState(ApiData);
+
+  const filterItem = (category) => {
+    if (category === "all") {
+      setmenuData(ApiData);
+      return;
+    }
+
+    const updateList = ApiData.filter((item) => {
+      return item.category === category;
+    });
+
+    setmenuData(updateList);
+  }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar menuList={uniqueList} filterItem={filterItem} />
+      <MenuCard items={menuData} />
     </div>
-  );
+  )
+
 }
 
 export default App;
