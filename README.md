@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+URL: https://sohillalakiya.github.io/restaurant
+
+This web app contains:
+Mapping, Filter, High Order functions and other plain javascript functions, UseState Hook
+
+Note: This web app only shows the restaurant menu and you can filter menu items by it's category.
 
 ## Available Scripts
 
